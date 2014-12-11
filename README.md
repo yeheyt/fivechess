@@ -4,5 +4,6 @@ NodeJS + Socket.io开发的网络版五子棋，类似QQ游戏的五子棋，有
 #安装
 1、下载源代码，安装socket.io   
 2、运行服务端， 进入server目录，执行node index.js   
-3、使用http server(nginx或apache)将目录指向client目录（需要访问图片，html等文件),修改服务器IP和端口(位于index.html第70行)   
-4、访问index.html即可
+3、使用http server(nginx或apache)将目录指向client目录（需要访问图片，html等文件)    
+4、修改服务器IP和端口(分别位于index.html第70，87，88行)   
+5、访问index.html即可
